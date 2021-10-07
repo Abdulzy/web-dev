@@ -1,0 +1,147 @@
+
+.wd-margin-left {
+    margin-left: 16px;
+}
+
+.wd-in-margin-left {
+    padding-left: 15px;
+    padding-Top: 12px;
+}
+
+.wd-bg-color-black{background-color: black; }
+
+.wd-border{
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    width: 445px;
+}
+
+.wd-dot-symbol{
+    color: rgb(47, 51, 54);
+    position: absolute;
+    left: 440px;
+}
+
+.wd-blue{
+    color: rgb(29,161,242);
+}
+
+
+/* A specific part of assingment */
+.wd-width-length{
+    width: 360px;
+}
+
+.wd-background-grey{background-color: grey}
+
+.wd-search-twitter{
+    color: white;
+    background-color: darkgray;
+    border-radius: 25px;
+    border-style: none;
+    padding: 5px;
+    padding-left: 30px;
+}
+
+.wd-search-symbol{
+    position: absolute;
+    left: 32px;
+}
+
+.wd-settings-symbol{
+    padding-left: 20px;
+    color: rgb(29,161,242);
+}
+
+
+/* B part of the project */
+.wd-pad-around{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 15px;
+}
+
+.wd-padding-around{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.wd-first-padding-around{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.wd-text-grey {
+    color: darkgray;
+}
+
+.wd-highlight-link{
+    color: rgb(29,161,242);
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: rgb(29,161,242);
+}
+
+a:link, a:visited {
+color: rgb(110, 118, 125);
+background-color: transparent;
+text-decoration: none;
+}
+a:hover, a:active  {
+color: rgb(29,161,242);
+background-color: transparent;
+text-decoration: none;
+}
+
+/* C part of the project */
+
+.wd-smaller-text{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-bigger-text{
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+}
+
+
+/* D part of the project */
+.wd-image-placement{
+    border-radius: 25px;
+    border-style: none;
+    width: 100px;
+    height: 100px;
+}
+.wd-image-place{
+    border-radius: 25px;
+    border-style: none;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 330px;
+    width: 100px;
+    height: 100px;
+}
+
+.wd-text-e-f{
+    color: white;
+    font-size: 13px;
+    padding: 2px;
+    position: absolute;
+    width: 300px;
+}
+
+.wd-grey{
+    color: rgb(110, 118, 125);
+}
+
+
+
