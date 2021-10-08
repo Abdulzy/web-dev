@@ -2,10 +2,6 @@
     width: 100%;
 }
 
-.wd.invert{
-    filter: invert
-}
-
 input::placeholder {
     color: red;
     opacity: 1;
@@ -13,13 +9,17 @@ input::placeholder {
 
 .wd-bg-color-black{background-color: black; }
 
-.wd-setting-color{
-    color: #0d6efd;
-}
+
 
 .wd-image-circular {
     border-radius: 50%;
     width: 48px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #212529;
+    border-color: #212529;
 }
 
 .wd-image-square {
