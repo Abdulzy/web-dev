@@ -2,10 +2,6 @@
     width: 100%;
 }
 
-input::placeholder {
-    color: red;
-    opacity: 1;
-}
 
 .wd-bg-color-black{background-color: black; }
 
