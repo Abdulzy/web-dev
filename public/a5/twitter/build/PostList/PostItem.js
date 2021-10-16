@@ -35,7 +35,7 @@ const PostItem = (post) => {
                         <div class= " mt-2">
                             <span class ="me-5"><a  class = "second" href="#"><i class="far fa-regular fa-comment"></i><span class ="ms-2">${post.comments}</span></a></span>
                             <span class ="me-5 ms-5"><a  class = "second" href="#"><i class="fas fa-solid fa-retweet"></i><span class ="ms-2">${post.retweet}</span></a></span>
-                            <span class ="me-5 ms-5"><a  class = "third" href="#"><i class="far fa-regular fa-heart"></i><span class ="ms-2">${post.likes}</span></a></span>
+                            <span class ="me-5 ms-5"><a  class = "first" href="#"><i class="far fa-regular fa-heart"></i><span class ="ms-2">${post.likes}</span></a></span>
                             <span class ="me-5 ms-5"><a  class = "second" href="#"><i class="fas fa-share-square"></i></a></span>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const PostItem = (post) => {
                         <div class= " mt-2">
                             <span class ="me-5"><a  class = "second" href="#"><i class="far fa-regular fa-comment"></i><span class ="ms-2">${post.comments}</span></a></span>
                             <span class ="me-5 ms-5"><a  class = "second" href="#"><i class="fas fa-solid fa-retweet"></i><span class ="ms-2">${post.retweet}</span></a></span>
-                            <span class ="me-5 ms-5"><a  class = "second" href="#"><i class="far fa-regular fa-heart"></i><span class ="ms-2">${post.likes}</span></a></span>
+                            <span class ="me-5 ms-5"><a  class = "first" href="#"><i class="far fa-regular fa-heart"></i><span class ="ms-2">${post.likes}</span></a></span>
                             <span class ="me-5 ms-5"><a  class = "second" href="#"><i class="fas fa-share-square"></i></a></span>
                         </div>
                     </div>
