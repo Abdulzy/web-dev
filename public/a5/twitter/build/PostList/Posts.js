@@ -6,7 +6,7 @@ export default [
      profile: '../../../images/spaceship.png', 
      heading: 'Countdown: Inspirational4 Mission to Space | Netflix Official Site', 
      content: 'From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space..',
-     link: '<i class="fa-solid fa-link"></i>netflix.com',
+     link: '<i class="fas fa-solid fa-link"></i>netflix.com',
      comments: '4.2k', 
      retweet: '3.5k', 
      likes: '37.5k' },

@@ -14,3 +14,15 @@ a.second:hover, a.second:active  {
     background-color: transparent;
     text-decoration: none;
 }
+
+a.third:hover, a.third:active  {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.third:link, a.third:visited {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+}
