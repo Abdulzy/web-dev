@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//Symplicity Corporation//PHP ICS Generator//EN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20201101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20210314T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20211107T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20220313T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:60effd215311089fe552b891b23ce564b648fc25@northeastern-csm.symplicity.com
+DTSTAMP:20211018T185052Z
+SUMMARY:Campus to Career - Khoury Graduate (CS)
+DESCRIPTION:Description: Employer participants will join Zoom sessions. You will have a chance to meet with employers in small group session via Zoom break-out rooms. The employers are helpings students prepare for their job search and most are also recruiting for spring 2022 Co-op. This is not a traditional Career Fair but a networking event that could lead to a spring 2022 Co-op.\nThe first session is 6:00 – 7:00 p.m. EST and employer participants will help students with general preparation (resumes\, behavioral interviewing\, branding).\nThe second session is 7:00 – 8:00 p.m. EST and employer participants will focus on helping students prepare for technical interviews including an overview of the process at their company as well as tips for success.\nEmployers participating include: CRD\, Danfoss\, MFS\, Red Hat\, Dell\, Oracle\, Slalom Build\, Career Soft Solutions\, Sabre Labs\, Cohere Health\, Schlumberger.  Additional employers anticipated.\n\nFor more information\, log into NUworks:\n\n	https://northeastern-csm.symplicity.com/students/
+DTSTART;TZID=America/New_York:20211026T180000
+DTEND;TZID=America/New_York:20211026T200000
+END:VEVENT
+END:VCALENDAR
