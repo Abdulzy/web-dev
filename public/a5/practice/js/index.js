@@ -178,4 +178,31 @@ const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
 console.log(greeting2);
 
 
+let xg = [110,70,10,60];
+let mn = [71,43,14,95,98];
+let xh = [...xg, 9, 10, 11, mn]
+console.log(xh.length);
+
+
+let sc = {
+    xi: 'fv',
+    gu: 'xe'
+}
+let jm = {
+    gu: 'cr',
+    yd: 'um',
+    ...sc,
+}
+sc = {
+    ...jm,
+    gu: 'xg',
+    yd: 'kd'
+}
+console.log(sc.xi)
+console.log(jm.gu)
+console.log(sc.yd)
+
+
+
+
 
