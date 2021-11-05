@@ -4,6 +4,8 @@
     height: 48px;
 }
 
+
+
 .wd-whats {
     font-size: 30px
 }
@@ -30,4 +32,30 @@ a.second:hover, a.second:active  {
     color: #2a9fd6;
     background-color: transparent;
     text-decoration: none;
+}
+
+.wd-twitter-color {
+    color: #2a9fd6;
+}
+
+.wd-image-circular2 {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.wd-twitter-space {
+    width: 100%;
+    height: auto;
+}
+
+.wd-tweet-box {
+    display: inline-block;
+    vertical-align: top;
+    color: lightgray;
+    font-size: 15px;
+}
+.wd-black{
+    background: transparent;
 }

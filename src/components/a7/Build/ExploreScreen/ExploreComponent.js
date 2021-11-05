@@ -13,7 +13,7 @@ const ExploreComponent = () => {
                     </div>
                 </div>
                 <div className='col-1'>
-                    <i className='fas fa-cog fa-2x wd-setting-color'></i>
+                    <i className='fas fa-cog fa-2x wd-twitter-color'></i>
                 </div>
            </div>
            <ul className='nav mt-2 mb-2 nav-tabs'>

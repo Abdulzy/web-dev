@@ -3,7 +3,7 @@ const NavigationSidebar = ({
     active = 'home'
 }) => {
     return(
-        <div className = 'list-group mr-1 '>
+        <div className = 'list-group '>
             <Link to="/a7/" className = 'list-group-item'>
                 <i className='fab fa-twitter fa-inverse'></i> 
             </Link>

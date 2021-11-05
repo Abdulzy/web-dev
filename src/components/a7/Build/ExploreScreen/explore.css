@@ -4,8 +4,8 @@
 
 .wd-bg-color-black{background-color: black; }
 
-.wd-setting-color{
-    color: #0d6efd;
+.wd-twitter-color {
+    color: #2a9fd6;
 }
 
 .wd-image-circular {
@@ -40,5 +40,9 @@
     color: white;
     font-size: 30px;
     font-weight: bold;
+}
+
+.wd-twitter-color {
+    color: #2a9fd6;
 }
 
