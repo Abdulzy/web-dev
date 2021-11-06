@@ -49,10 +49,10 @@ const PostItem = (
                             </div>
                         </div>
                         <div className= 'mt-2'>
-                            <span className ='me-5'><a  className = 'second' href="#"><i className='far fa-regular fa-comment'></i><span className ='ms-2'>{post.comments}</span></a></span>
-                            <span className ='me-5 ms-4'><a  className = 'second' href="#"><i className='fas fa-solid fa-retweet'></i><span className ='ms-2'>{post.retweet}</span></a></span>
-                            <span className ='me-5 ms-4'><a  className = 'first' href="#"><i className='far fa-regular fa-heart'></i><span className ='ms-2'>{post.likes}</span></a></span>
-                            <span className ='me-5 ms-4'><a  className = 'second' href="#"><i className='fas fa-share-square'></i></a></span>
+                            <span className ='me-5'><a  className = 'second' href="/#"><i className='far fa-regular fa-comment'></i><span className ='ms-2'>{post.comments}</span></a></span>
+                            <span className ='me-5 ms-4'><a  className = 'second' href="/#"><i className='fas fa-solid fa-retweet'></i><span className ='ms-2'>{post.retweet}</span></a></span>
+                            <span className ='me-5 ms-4'><a  className = 'first' href="/#"><i className='far fa-regular fa-heart'></i><span className ='ms-2'>{post.likes}</span></a></span>
+                            <span className ='me-5 ms-4'><a  className = 'second' href="/#"><i className='fas fa-share-square'></i></a></span>
                         </div>
                     </div>
                 </div>
@@ -81,10 +81,10 @@ const PostItem = (
                             <img src = {post.image} className= 'img-fluid border border-secondary rounded-top' alt ='' />
                         </div>
                         <div className= 'mt-2'>
-                            <span className ='me-5'><a  className = 'second' href="#"><i className='far fa-regular fa-comment'></i><span className ='ms-2'>{post.comments}</span></a></span>
-                            <span className ='me-5 ms-4'><a  className = 'second' href="#"><i className='fas fa-solid fa-retweet'></i><span className ='ms-2'>{post.retweet}</span></a></span>
-                            <span className ='me-5 ms-4'><a  className = 'first' href="#"><i className='far fa-regular fa-heart'></i><span className ='ms-2'>{post.likes}</span></a></span>
-                            <span className ='me-5 ms-4'><a  className = 'second' href="#"><i className='fas fa-share-square'></i></a></span>
+                            <span className ='me-5'><a  className = 'second' href="/#"><i className='far fa-regular fa-comment'></i><span className ='ms-2'>{post.comments}</span></a></span>
+                            <span className ='me-5 ms-4'><a  className = 'second' href="/#"><i className='fas fa-solid fa-retweet'></i><span className ='ms-2'>{post.retweet}</span></a></span>
+                            <span className ='me-5 ms-4'><a  className = 'first' href="/#"><i className='far fa-regular fa-heart'></i><span className ='ms-2'>{post.likes}</span></a></span>
+                            <span className ='me-5 ms-4'><a  className = 'second' href="/#"><i className='fas fa-share-square'></i></a></span>
                         </div>
                     </div>
                 </div>
