@@ -18,7 +18,7 @@ const TweetListItem = ({tweet}) => {
                              src={tweet['logo-image']}/>
                     </td>
                     <td className="ps-3" style={{width: '100%'}}>
-                        <i onClick={deleteTweetClickHandler} className="fas fa-trash-alt fa-pull-right"></i>
+                        <i onClick={deleteTweetClickHandler} className="fas fa-times fa-pull-right"></i>
                         <span className="fw-bold">{tweet.userName}</span>
                         {tweet.verified && <i className="ms-1 fas fa-badge-check"></i>}
                         <span className="ms-1 text-secondary">@{tweet.handle}</span>
