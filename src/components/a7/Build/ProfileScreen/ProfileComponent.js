@@ -20,9 +20,9 @@ const ProfileComponent = () => {
             </div>
             <div>
                 <img src={profile.bannerPicture}
-                    width="100%"/>
+                    width="100%" alt=''/>
                 <img src={profile.profilePicture}
-                     className="wd-picture"/>
+                     className="wd-picture" alt =''/>
                 <Link to="/a7/twitter/editprofile">
                     <button className="btn rounded-pill wd-edit">Edit Profile</button>
                 </Link>

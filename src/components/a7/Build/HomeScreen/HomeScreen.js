@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationSidebar from "../NavigationSidebar/index";
 import PostSummaryList from "../PostSummaryList/PostSummaryList";
-import PostList from "../PostList/PostList";
 import WhatsHappening from "../WhatsHappening/index";
 import TweetList from "../TweetList/index";
 import './home.css';

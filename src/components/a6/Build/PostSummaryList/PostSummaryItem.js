@@ -20,7 +20,7 @@ const PostSummaryItem = (
                     <p className='fw-bold mt-0'>{post.title}</p>
                 </div>
                 <div className ='col-3'>
-                    <img src = {post.image} className='mb-2 mt-2 pe-2 img-fluid rounded'/>
+                    <img src = {post.image} className='mb-2 mt-2 pe-2 img-fluid rounded' alt =''/>
                 </div>
             </div>
         </li>

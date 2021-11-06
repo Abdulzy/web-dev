@@ -21,7 +21,7 @@ const PostItem = (
                 <div className='row'>
                     <div className='col-1 ps-1 '>
                         <div>
-                            <img src ={post.profile} className= 'wd-image-circular' />
+                            <img src ={post.profile} className= 'wd-image-circular' alt=''/>
                         </div>
                     </div>
                     <div className='col-11'>
@@ -35,7 +35,7 @@ const PostItem = (
                         </div>
                         <p className='mt-0'><div dangerouslySetInnerHTML={{ __html: post.title }} /></p>
                         <div className= 'border border-secondary rounded-top'>
-                            <img src = {post.image} className= 'img-fluid border border-secondary rounded-top' />
+                            <img src = {post.image} className= 'img-fluid border border-secondary rounded-top' alt= '' />
                         </div>
                         <div className= 'border  border-secondary rounded-bottom'>
                             <p className= 'ms-2 mt-2'>
@@ -64,7 +64,7 @@ const PostItem = (
                 <div className='row'>
                     <div className='col-1 ps-1 '>
                         <div>
-                            <img src = {post.profile} className= 'wd-image-circular' />
+                            <img src = {post.profile} className= 'wd-image-circular' alt=''/>
                         </div>
                     </div>
                     <div className='col-11'>
@@ -78,7 +78,7 @@ const PostItem = (
                         </div>
                         <p className='mt-0'><div dangerouslySetInnerHTML={{ __html: post.title }} /></p>
                         <div className= 'border border-secondary rounded-top'>
-                            <img src = {post.image} className= 'img-fluid border border-secondary rounded-top' />
+                            <img src = {post.image} className= 'img-fluid border border-secondary rounded-top' alt='' />
                         </div>
                         <div className= 'mt-2'>
                             <span className ='me-5'><a  className = 'second' href="#"><i className='far fa-regular fa-comment'></i><span className ='ms-2'>{post.comments}</span></a></span>

@@ -15,12 +15,12 @@ const WhatsHappening = () => {
         <div>
             <div className='row'>
                     <div className='col-1 ps-1 '>
-                        <img className="ms-4 wd-image-circular2 " src={"/a5/images/tweet.png"}/>
+                        <img className="ms-4 wd-image-circular2 " src={"/a5/images/tweet.png"} alt=''/>
                     </div>
                     <div className='col-11 ps-2 '>
                         <div>
                             <div className="ps-4 ">
-                                <textarea className="wd-twitter-space wd-tweet-box wd-black border-0" value={whatsHappening}
+                                <textarea className="wd-twitter-space wd-tweet-box wd-black border-0" 
                                    rows="3"
                                    placeholder="What's happening?"
                                    value = {whatsHappening}

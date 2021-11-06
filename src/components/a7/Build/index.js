@@ -1,5 +1,5 @@
 import React from "react";
-import {Link, Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 import ExploreScreen from "./ExploreScreen/ExploreScreen";
 import HomeScreen from "./HomeScreen/HomeScreen";
 import ProfileScreen from "./ProfileScreen/ProfileScreen";

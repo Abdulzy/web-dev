@@ -74,9 +74,9 @@ const EditProfileComponent = () => {
             </div>
             <div className="mt-3">
                 <img src={profile.bannerPicture}
-                     width="100%"/>
+                     width="100%" alt =''/>
                 <img src={profile.profilePicture}
-                     className="wd-picture"/>
+                     className="wd-picture" alt = ''/>
             </div>
             <div className="border border-secondary rounded ms-2 me-2 ps-1" >
                 <div>Name</div>
