@@ -10,7 +10,7 @@ const tweets = (state = posts,action) => {
                 "verified": false,
                 "handle": "ReactJS",
                 "time": "2h",
-                ...action.tweet,
+                "tweet": action.tweet,
                 "avatar-image": "/a5/images/reactjs.png",
                 "logo-image": "/a5/images/reactjs.png",
                 "stats": {
