@@ -7,8 +7,10 @@ import HelloWorldAs6 from "./components/a6/HelloWorld"
 import BuildAs6 from "./components/a6/Build";
 import HomeScreenAs6 from "./components/a6/Build/HomeScreen/HomeScreen";
 import ExploreScreenAs6 from "./components/a6/Build/ExploreScreen/ExploreScreen";
-import Practice from "./components/a7/Practice/index";
-import Build from "./components/a7/Build/index";
+import PracticeAs7 from "./components/a7/Practice/index";
+import BuildAs7 from "./components/a7/Build/index";
+import Practice from "./components/a8/Practice/index";
+import Build from "./components/a8/Build/index";
 import {BrowserRouter, Route} from "react-router-dom";
 
 function App() {
@@ -28,12 +30,24 @@ function App() {
             <Route path="/a6/twitter/explore" component={ExploreScreenAs6} exact={true}/>
           
 
-            <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
-                <Practice/>
+            <Route path={["/a7", "/a7/practice"]} exact={true}>
+                <PracticeAs7/>
             </Route>
             <Route path="/a7/twitter">
+                <BuildAs7/>
+            </Route>
+
+
+            <Route path={["/", "/a8", "/a8/practice"]} exact={true}>
+                <Practice/>
+            </Route>
+            <Route path="/a8/twitter">
                 <Build/>
             </Route>
+
+
+
+
           </div>
       </BrowserRouter>
   );
