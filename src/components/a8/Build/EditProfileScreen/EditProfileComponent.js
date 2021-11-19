@@ -1,13 +1,15 @@
-import React, {useState} from "react";
+import React, {useState , useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 import '../ProfileScreen/profile.css';
+import {fetchProfile, updateProfile} from "../../../../services/profileService";
 
 const selectProfile = (state) => state.profile;
 
 const EditProfileComponent = () => {
     const profile = useSelector(selectProfile);
     const dispatch = useDispatch();
+    useEffect(() => fetchProfile(dispatch))
 
     const [name, setName] = useState(profile.name);
     const [bio, setBio] = useState(profile.bio);
@@ -43,16 +45,17 @@ const EditProfileComponent = () => {
         console.log("handleWebsiteChange");
         setDateOfBirth(newDateOfBirth);
     }
+
     const saveProfile = () => {
         console.log("saveProfile");
-        dispatch( {
-            type: 'edit-profile-name',
-            newName: name,
-            newBio: bio,
-            newLocation: location,
-            newWebsite: website,
-            newDateOfBirth: dateOfBirth
-        });
+        updateProfile(dispatch, 
+            {
+                newName: name,
+                newBio: bio,
+                newLocation: location,
+                newWebsite: website,
+                newDateOfBirth: dateOfBirth
+            }); 
     }
 
     return(
@@ -72,6 +75,7 @@ const EditProfileComponent = () => {
                     </Link>
                 </div>
             </div>
+            
             <div className="mt-3">
                 <img src={profile.bannerPicture}
                      width="100%" alt =''/>

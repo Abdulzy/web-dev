@@ -2,6 +2,9 @@ import profileJson from './data/profile.json';
 
 const profile = (state = profileJson, action) => {
     switch (action.type) {
+        case 'fetch-profile':
+            return action.profile;
+
         case 'edit-profile-name':
             console.log("STATE NAME: " + state.name);
             console.log("ACTION NAME: " + action.newName);

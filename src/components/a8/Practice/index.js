@@ -5,6 +5,7 @@ import Styles from "./Styles";
 import ConditionalOutput from "./ConditionalOutput";
 import Todo from "./Todo/TodoList";
 import ReduxExamples from "./ReduxExamples/components";
+import APIExamples from "./APIExamples";
 
 
 
@@ -29,6 +30,7 @@ const Practice = () => {
             <Link to="/a6/twitter/home">
                 AS6 Build
             </Link>
+            <APIExamples/>
             <ReduxExamples/>
             <Todo/>
             <ConditionalOutput/>

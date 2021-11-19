@@ -10,7 +10,7 @@ const tweets = (state = posts,action) => {
                 "verified": false,
                 "handle": "ReactJS",
                 "time": "2h",
-                "tweet": action.tweet,
+                ...action.tweet,
                 "avatar-image": "/a5/images/reactjs.png",
                 "logo-image": "/a5/images/reactjs.png",
                 "stats": {
@@ -19,15 +19,16 @@ const tweets = (state = posts,action) => {
                     "likes": 345
                 },
             };
-            return[
-                {
-                    ...tweet,
-                },
+            return[tweet,
                 ...state
             ];
 
         case 'delete-tweet':
             return state.filter(tweet => tweet._id !== action.tweet._id);
+
+        case 'fetch-all-tweets':
+            return action.tweets;
+    
         case 'like-tweet':
             return state.map(tweet => {
                     if(tweet._id === action.tweet._id) {
