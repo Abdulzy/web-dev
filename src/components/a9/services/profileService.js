@@ -1,4 +1,4 @@
-const PROFILE_API = 'https://arcane-sands-32499.herokuapp.com/api/profile';
+const PROFILE_API = 'https://arcane-sands-32499.herokuapp.com/rest/profile';
 
 export const fetchProfile = (dispatch) =>
     fetch(PROFILE_API)

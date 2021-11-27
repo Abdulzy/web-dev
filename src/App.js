@@ -9,8 +9,10 @@ import HomeScreenAs6 from "./components/a6/Build/HomeScreen/HomeScreen";
 import ExploreScreenAs6 from "./components/a6/Build/ExploreScreen/ExploreScreen";
 import PracticeAs7 from "./components/a7/Practice/index";
 import BuildAs7 from "./components/a7/Build/index";
-import Practice from "./components/a8/Practice/index";
-import Build from "./components/a8/Build/index";
+import PracticeAs8 from "./components/a8/Practice/index";
+import BuildAs8 from "./components/a8/Build/index";
+import Practice from "./components/a9/Practice/index";
+import Build from "./components/a9/Build/index";
 import {BrowserRouter, Route} from "react-router-dom";
 
 function App() {
@@ -38,12 +40,20 @@ function App() {
             </Route>
 
 
-            <Route path={["/", "/a8", "/a8/practice"]} exact={true}>
-                <Practice/>
+            <Route path={[ "/a8", "/a8/practice"]} exact={true}>
+                <PracticeAs8/>
             </Route>
             <Route path="/a8/twitter">
+                <BuildAs8/>
+            </Route>
+
+            <Route path={[ "/", "/a9", "/a9/practice"]} exact={true}>
+                <Practice/>
+            </Route>
+            <Route path="/a9/twitter">
                 <Build/>
             </Route>
+
 
 
 

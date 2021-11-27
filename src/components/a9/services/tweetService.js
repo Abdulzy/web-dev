@@ -1,4 +1,4 @@
-const TWEET_API = 'https://arcane-sands-32499.herokuapp.com/api/tweets';
+const TWEET_API = 'https://arcane-sands-32499.herokuapp.com/rest/tweets';
 
 export const fetchAllTweets = (dispatch) =>
     fetch(TWEET_API)

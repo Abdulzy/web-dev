@@ -6,8 +6,6 @@ const profile = (state = profileJson, action) => {
             return action.profile;
 
         case 'edit-profile-name':
-            console.log("STATE NAME: " + state.name);
-            console.log("ACTION NAME: " + action.newName);
             return {
                 ...state,
                 name: action.newName,
