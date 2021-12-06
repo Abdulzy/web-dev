@@ -1,34 +1,34 @@
 import React, {useEffect, useState} from "react";
-import service from './service';
+import {findAllMovies, createMovie, findMovieById, deleteMovie, updateMovie  } from './service';
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);
   useEffect(() =>
-    service.findAllMovies()
+    findAllMovies()
       .then(movies => setMovies(movies)));
 
-    const deleteMovie = (movie) =>
-    service.deleteMovie(movie._id)
+    const DeleteMovie = (movie) =>
+    deleteMovie(movie._id)
     .then(() => setMovies(
         movies.filter(m => m !== movie)));
 
-    const createMovie = () =>
-    service.createMovie({title: 'New Movie'})
+    const CreateMovie = () =>
+    createMovie({title: 'New Movie'})
         .then(actualMovie =>
         setMovies([
             actualMovie, ...movies
         ]));
 
     const [movie, setMovie] = useState({title: ''});
-    const findMovieById = (movie) =>
-        service.findMovieById(movie._id)
+    const FindMovieById = (movie) =>
+        findMovieById(movie._id)
         .then(movie => setMovie(movie));
 
-    const updateMovie = (event) =>
+    const UpdateMovie = (event) =>
         setMovie({...movie, title: event.target.value});
 
-    const saveMovie = () =>
-        service.updateMovie(movie)
+    const SaveMovie = () =>
+        updateMovie(movie)
         .then(() => setMovies(
         movies.map(m => m._id === movie._id ? movie : m)
         ));
@@ -39,7 +39,7 @@ const Movies = () => {
   return(
     <div>
         <button
-            onClick={createMovie}
+            onClick={CreateMovie}
             className="btn btn-success float-end">
             Create
         </button>
@@ -48,13 +48,13 @@ const Movies = () => {
         <ul className="list-group">
         <li className="list-group-item">
             <button
-                onClick={saveMovie}
+                onClick={SaveMovie}
                 className="btn btn-primary float-end">
                 Save
             </button>
 
             <input
-                onChange={updateMovie}
+                onChange={UpdateMovie}
                 defaultValue={movie.title}
                 className="form-control"/>
         </li>
@@ -64,13 +64,13 @@ const Movies = () => {
             <li key={movie._id}
                 className="list-group-item">
                 <button
-                    onClick={() => findMovieById (movie)}
+                    onClick={() => FindMovieById (movie)}
                     className="btn btn-warning float-end ms-2">
                     Edit
                 </button>
                 <button
                     className="btn btn-danger float-end"
-                    onClick={() => deleteMovie(movie)}>
+                    onClick={() => DeleteMovie(movie)}>
                     Delete
                 </button>
               {movie.title}

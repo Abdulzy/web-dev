@@ -1,4 +1,4 @@
-const URL = 'https://arcane-sands-32499.herokuapp.com/rest/who';
+const URL = 'http://localhost:4000/rest/who';
 
 export const findAllWho = (dispatch) =>
     fetch(URL)
@@ -10,6 +10,3 @@ export const findAllWho = (dispatch) =>
         })
     );
 
-export default {
-    findAllWho
-    };
