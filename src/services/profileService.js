@@ -11,7 +11,7 @@ export const fetchProfile = (dispatch) =>
         );
 
 export const updateProfile = (dispatch, newProfile) =>
-    fetch(`${PROFILE_API}/${newProfile._id}`, {
+    fetch(`${PROFILE_API}`, {
         method: 'PUT',
         body: JSON.stringify(newProfile),
         headers: {
